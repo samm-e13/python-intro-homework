@@ -7,6 +7,6 @@
 #2. What caused it: I forgot to define the age variable.
 #3. I fixed by defining the variable.
 
-age =
+age = 43
 print(age)
 
