@@ -10,11 +10,9 @@ dow_group3 = ["saturday", "sunday"]
 
 if day.lower() not in dow:
     print("Sorry, I don't recognize that day. Try: Monday, Tuesday, Wednesday...")
-
-if time.lower() not in tod:
+elif time.lower() not in tod:
     print("Sorry, I don't recognize that time. Try: morning, afternoon, or evening...")
-
-if day.lower() in dow_group1 and time.lower() == "morning":
+elif day.lower() in dow_group1 and time.lower() == "morning":
     print("Front-half week morning's are perfect time for a jog or walk.")
 elif day.lower() in dow_group1 and time.lower() == "afternoon":
     print("Front-half week afternoon's are perfect siesta or book reading time")

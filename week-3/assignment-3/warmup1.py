@@ -9,4 +9,4 @@ elif score >= 70 and score <= 79:
 elif score >= 60 and score <= 69:
     print("Grade: D")
 else:
-    print("Greade: F")
+    print("Grade: F")
