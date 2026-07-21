@@ -1,12 +1,12 @@
 num = int(input("Enter a number: "))
 
-if num == 0:
-    print(f"{num} is zero.")
-elif num > 0:
+if num > 0:
     print(f"{num} is positive.")
-else num < 0:
+elif num < 0:
     print(f"{num} is negative.")
-    
+else num == 0:
+    print(f"{num} is zero.")
+
 if num % 2 == 0:
     print(f"{num} is even.")
 else: 
