@@ -7,9 +7,7 @@ elif num < 0:
 else:
     print(f"{num} is zero.")
     
-if num == 0:
-    print(f"{num} is zero.")
-elif num % 2 == 0:
+if num % 2 == 0:
     print(f"{num} is even.")
 else: 
     print(f"{num} is odd.")
