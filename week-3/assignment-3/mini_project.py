@@ -15,20 +15,46 @@ if  time not in tod:
 
 if day == 'monday' and time == "morning":
     print("Front-half week morning's are perfect time for a jog or walk.")
+if day == 'monday' and time == "afternoon":
+    print("Front-half week afternoon's are perfect time for a jog or walk.")
+if day == 'monday' and time == "evening":
+    print("Front-half week evening's are perfect time for a jog or walk.")
+elif day == 'tuesday' and time == "morning":
+    print("Front-half week morning's are perfect siesta or book reading time")
 elif day == 'tuesday' and time == "afternoon":
     print("Front-half week afternoon's are perfect siesta or book reading time")
+elif day == 'tuesday' and time == "evening":
+    print("Front-half week afternoon's are perfect siesta or book reading time")
+elif day == 'wednesday' and time == "morning":
+    print("Wednesday morning's are perfect for board-games!")
+elif day == 'wednesday' and time == "afternoon":
+    print("Wednesday afternoon's are perfect for board-games!")
 elif day == 'wednesday' and time == "evening":
-    print("Front-half week evening's are perfect for board-games!")
+    print(""Wednesday evening's are perfect for board-games!")
 elif day == 'thursday' and time == "morning":
     print("Latter-half of week morning's are perfect time for a coffee shop visit.")
+elif day == 'thursday' and time == "afternoon":
+    print("Latter-half of week afternoon's are perfect time for a coffee shop visit.")
+elif day == 'thursday' and time == "evening":
+    print("Latter-half of week evening's are perfect time for a coffee shop visit.")
+elif day == 'friday' and time == "morning":
+    print("Friday morning's are made for lunch with friends.")
 elif day == 'friday' and time == "afternoon":
-    print("Latter-half of week afternoon's are made for lunch with friends.")
+    print("Friday afternoon's are made for lunch with friends.")
+elif day == 'friday' and time == "evening":
+    print("Friday evening's are made for lunch with friends.")
+elif day == 'saturday' and time == "morning":
+    print("Weekend morning's were created for wine!")
+elif day == 'saturday' and time == "afternoon":
+    print("Weekend afternoon's were created for wine!")
 elif day == 'saturday' and time == "evening":
     print("Weekend evening's were created for wine!")
 elif day == 'sunday' and time == "morning":
     print("Weekend morning's are perfect for home-cooked breakfast.")
-elif day == 'monday' and time == "afternoon":
-    print("Monday afternoon's are made for fishing.")
-elif day == 'tuesday' and time == "evening":
-    print("Weekday evening's were created for movies!")
+elif day == 'sunday' and time == "afternoon":
+    print("Weekend afternoon's are perfect for home-cooked breakfast.")
+elif day == 'sunday' and time == "evening":
+    print("Weekend evening's are perfect for home-cooked breakfast.")
+
+
 
