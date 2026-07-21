@@ -4,7 +4,7 @@ if num > 0:
     print(f"{num} is positive.")
 elif num < 0:
     print(f"{num} is negative.")
-else num == 0:
+else:
     print(f"{num} is zero.")
 
 if num % 2 == 0:

@@ -14,47 +14,47 @@ elif  time not in tod:
     print("Sorry, I don't recognize that time. Try: morning, afternoon, or evening...")
 
 elif day == 'monday' and time == "morning":
-    print("Monday morning's are perfect time for a jog or walk.")
+    print("Suggestion: Monday morning's are perfect time for a jog or walk.")
 elif day == 'monday' and time == "afternoon":
-    print("Monday afternoon's are perfect time for coding.")
+    print("Suggestion: Monday afternoon's are perfect time for coding.")
 elif day == 'monday' and time == "evening":
-    print("Monday evening's are perfect time learning.")
+    print("Suggestion: Monday evening's are perfect time learning.")
 elif day == 'tuesday' and time == "morning":
-    print("Tuesday morning's are perfect siesta or book reading time")
+    print("Suggestion: Tuesday morning's are perfect siesta or book reading time")
 elif day == 'tuesday' and time == "afternoon":
-    print("Tuesday afternoon's are perfect for eating")
+    print("Suggestion: Tuesday afternoon's are perfect for eating")
 elif day == 'tuesday' and time == "evening":
-    print("Tuesday evening's should include weights")
+    print("Suggestion: Tuesday evening's should include weights")
 elif day == 'wednesday' and time == "morning":
-    print("Wednesday morning's are perfect for board-games!")
+    print("Suggestion: Wednesday morning's are perfect for board-games!")
 elif day == 'wednesday' and time == "afternoon":
-    print("Wednesday afternoon's require focus time!")
+    print("Suggestion: Wednesday afternoon's require focus time!")
 elif day == 'wednesday' and time == "evening":
-    print("Wednesday evening's are better with family")
+    print("Suggestion: Wednesday evening's are better with family")
 elif day == 'thursday' and time == "morning":
-    print("Latter-half of week morning's are perfect time for a coffee shop visit.")
+    print("Suggestion: Latter-half of week morning's are perfect time for a coffee shop visit.")
 elif day == 'thursday' and time == "afternoon":
-    print("Thursday afternoon's are boring.")
+    print("Suggestion: Thursday afternoon's are boring.")
 elif day == 'thursday' and time == "evening":
-    print("Thursday evening news is a must have.")
+    print("Suggestion: Thursday evening news is a must have.")
 elif day == 'friday' and time == "morning":
-    print("Friday morning's are made for lunch with friends.")
+    print("Suggestion: Friday morning's are made for lunch with friends.")
 elif day == 'friday' and time == "afternoon":
-    print("Friday afternoon's require happy hour.")
+    print("Suggestion: Friday afternoon's require happy hour.")
 elif day == 'friday' and time == "evening":
-    print("Friday evening's need supervision")
+    print("Suggestion: Friday evening's need supervision")
 elif day == 'saturday' and time == "morning":
-    print("Saturday morning's were created for wine!")
+    print("Suggestion: Saturday morning's were created for wine!")
 elif day == 'saturday' and time == "afternoon":
-    print("I still need more wine.")
+    print("Suggestion: Have more wine.")
 elif day == 'saturday' and time == "evening":
-    print("Wine?")
+    print("Suggestion: Have some cold water")
 elif day == 'sunday' and time == "morning":
-    print("Weekend morning's are perfect for home-cooked breakfast.")
+    print("Suggestion: Weekend morning's are perfect for home-cooked breakfast.")
 elif day == 'sunday' and time == "afternoon":
-    print("Sunday is time for church.")
+    print("Suggestion: Sunday is time for church.")
 elif day == 'sunday' and time == "evening":
-    print("Menudo for breakfast is not for the feint-hearted")
+    print("Suggestion: Menudo for breakfast is not for the feint-hearted")
 
 
 
