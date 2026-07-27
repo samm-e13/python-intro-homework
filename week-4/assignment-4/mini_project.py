@@ -9,13 +9,19 @@ students = [
     {"name": "Eli",     "score": 79, "subject": "Data"},
 ]
 
-scoring = []
+current_max = 0
+top_scorer = {}
 for student in students:
-    scoring.append(student['score'])
-max_score = sorted(scoring).pop()
-for student in students:
-    if student["score"] == max_score:
-        print(f"Top scorer: {student['name']} ({student['score']})")
+    if student["score"] <= current_max:
+        continue
+    else:
+        current_max = student["score"]
+        top_scorer["name"] = student["name"]
+        top_scorer["score"] = student["score"]
+        print(current_max)
+
+
+print(f"Top scorer: {top_scorer['name']} ({top_scorer['score']})")
 
 total_score = 0
 for student in students:
