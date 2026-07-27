@@ -5,9 +5,9 @@ student = {"name": "Roy"
 for x, y in student.items():
     print(f"{x}: {y}")
 
-student["graduate"] = False
+student["graduated"] = False
 
-print(student["graduate"])
+print(student["graduated"])
 
 for x, y in student.items():
     print(f"{x}: {y}")

@@ -12,7 +12,7 @@ students = [
 scoring = []
 for student in students:
     scoring.append(student['score'])
-max_score = max(scoring)
+max_score = sorted(scoring).pop()
 for student in students:
     if student["score"] == max_score:
         print(f"Top scorer: {student['name']} ({student['score']})")
