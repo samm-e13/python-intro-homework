@@ -7,7 +7,5 @@ for x, y in student.items():
 
 student["graduated"] = False
 
-print(student["graduated"])
-
 for x, y in student.items():
     print(f"{x}: {y}")

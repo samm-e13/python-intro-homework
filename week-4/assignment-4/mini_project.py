@@ -18,8 +18,6 @@ for student in students:
         current_max = student["score"]
         top_scorer["name"] = student["name"]
         top_scorer["score"] = student["score"]
-        print(current_max)
-
 
 print(f"Top scorer: {top_scorer['name']} ({top_scorer['score']})")
 
@@ -37,6 +35,6 @@ print(f"Subjects offered: {subjects}")
 high_scores = []
 for student in students:
     if student["score"] > 75:
-               high_scores.append(student["name"])
+        high_scores.append(student["name"])
 print(f"High scorers: {high_scores}")
 
