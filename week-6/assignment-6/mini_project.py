@@ -52,7 +52,7 @@ def show_menu():
         4. Sort the list
         5. Quit
             """)
-    option = int(input("Choose an option (1-5)"))
+    option = input("Choose an option (1-5)")
     
     return option
 
@@ -60,21 +60,21 @@ def main():
     trigger = True
     while trigger:
         input = show_menu()
-        if input == 5:
+        if input == "5":
             trigger = False
             print(f"Thanks!")
         else:
-            if input == 1:
+            if input == "1":
                 find_min(numbers)
-            elif input == 2:
+            elif input == "2":
                 find_max(numbers)
-            elif input == 3:
+            elif input == "3":
                 output = search(numbers)
                 if output < 0:
                     print(f"Not found")
                 else:
                     print(f"Found at index {output}")
-            elif input == 4:
+            elif input == "4":
                 print(bubble_sort())
 
 main()

@@ -1,6 +1,6 @@
-def greeting(name, greet="hello"):
-    print(f"{greet.capitalize()}, {name.capitalize()}!")
+def greet(name, greeting="hello"):
+    print(f"{greeting.capitalize()}, {name.capitalize()}!")
 
-greeting("alex")
-greeting("alex", "good morning")
-greeting("alex", greet="hello")
+greet("alex")
+greet("alex", "good morning")
+greet("alex", greeting="hello")
