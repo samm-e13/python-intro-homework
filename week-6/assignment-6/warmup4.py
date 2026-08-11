@@ -1,5 +1,5 @@
 score = int(input("Enter a score: "))
-def is_valid_score(x):
+def is_valid_score(x = score):
     if score >= 0 and score <=100:
         return True
     else:
