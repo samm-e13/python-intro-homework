@@ -4,9 +4,9 @@ def scope_test():
 #print(f"This is the variable value: {x}")
 #NameError: name 'x' is not defined
 
-def scope_test():
+def scope():
     x = 22
     return x
 
-y = scope_test()
+y = scope()
 print(y)
