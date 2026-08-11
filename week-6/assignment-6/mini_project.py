@@ -32,14 +32,15 @@ def search(numbers, user_num):
     else:
         return -1
     
-def bubble_sort(number_list):
-    for x in range(len(number_list)):
+def bubble_sort(numbers):
+    num_list = numbers.copy()
+    for x in range(len(num_list)):
         smallest_num = x
-        for y in range(x+1, len(number_list)):
-            if number_list[y] < number_list[smallest_num]:
+        for y in range(x+1, len(num_list)):
+            if num_list[y] < num_list[smallest_num]:
                 smallest_num = y
-        number_list[x], number_list[smallest_num] = number_list[smallest_num], number_list[x]
-    return number_list
+        num_list[x], num_list[smallest_num] = num_list[smallest_num], num_list[x]
+    return num_list
     
 def show_menu():
     print("""
@@ -63,9 +64,9 @@ def main():
             print(f"Thanks!")
         else:
             if menu_entry == "1":
-                find_min(numbers)
+                print(find_min(numbers))
             elif menu_entry == "2":
-                find_max(numbers)
+                print(find_max(numbers))
             elif menu_entry == "3":
                 entry = int(input("Enter an integer: "))
                 output = search(numbers, entry)
@@ -74,7 +75,6 @@ def main():
                 else:
                     print(f"Found at index {output}")
             elif menu_entry == "4":
-                num_list = numbers.copy()
-                bubble_sort(num_list)
+                print(bubble_sort(numbers))
 
 main()
