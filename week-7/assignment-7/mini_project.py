@@ -19,9 +19,9 @@ else:
 
     with open('food_report.txt', 'w') as file:
         current_date = datetime.datetime.now()
-        file.write(f"Food Expense Report - generated {current_date.strftime('%B %d, %Y')}\n")
+        file.write(f"Food Expense Report — generated {current_date.strftime('%B %d, %Y')}\n")
         for element in filtered:
-            file.write(f"{element['date']}: ${element['amount']}\n")
+            file.write(f"{element['date']}: ${element['amount']:.2f}\n")
         file.write(f"Total: ${total_spent:.2f}\n")    
 
 with open('food_report.txt', 'r') as file:
