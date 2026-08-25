@@ -17,6 +17,7 @@ else:
         if None in line:
             key_error = f"Row {row_value}: extra column detected - skipped"
             messy_list.append(key_error)
+            continue
         try:
             cost_list_dict = {
                 "name": line["name"],
@@ -26,7 +27,7 @@ else:
 
             clean.append(cost_list_dict)
         except ValueError as e:
-            skip = f"Row {row_value}: ValuueError - {e}"
+            skip = f"Row {row_value}: ValueError - {e}"
             messy_list.append(skip)
     
     skipped = len(messy_list)
