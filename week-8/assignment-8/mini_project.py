@@ -27,7 +27,7 @@ else:
 
             clean.append(cost_list_dict)
         except ValueError as e:
-            skip = f"Row {row_value}: ValueError - {e}"
+            skip = f"Row {row_value}: {e}"
             messy_list.append(skip)
     
     skipped = len(messy_list)
