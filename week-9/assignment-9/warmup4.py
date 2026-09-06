@@ -1,7 +1,9 @@
+#Endpoint set up.
 import requests
 
 url = "https://thisurldoesnotexist.example.com"
 
+#try/except exception handling, checking status code = 200 prior to pulling json data.
 try:
     response = requests.get(url)
     if response.status_code != 200:
